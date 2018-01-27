@@ -26,6 +26,7 @@ def main():
     print(cipher_text)
     print(plaintext)
     print('ABC')
+    print('XYZ')
 
     
     
