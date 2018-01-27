@@ -26,7 +26,11 @@ def main():
     print(cipher_text)
     print(plaintext)
     print('ABC')
+<<<<<<< HEAD
     print('CF')
+=======
+    print('CD')
+>>>>>>> branch 'master' of https://github.com/mamaruru/PyLessen.git
     print('XYZ')
 
     
