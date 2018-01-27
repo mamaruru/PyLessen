@@ -26,7 +26,7 @@ def main():
     print(cipher_text)
     print(plaintext)
     print('ABC')
-    print('CDF')
+    print('CD')
     print('XYZ')
 
     
