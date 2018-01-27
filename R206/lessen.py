@@ -25,6 +25,7 @@ def main():
     cipher_text = cipher.encrypt(plaintext)
     print(cipher_text)
     print(plaintext)
+    print('ABC')
 
     
     
