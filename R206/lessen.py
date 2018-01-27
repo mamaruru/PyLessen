@@ -13,7 +13,7 @@ def main():
     print(string.ascii_letters)
     
     key = ''.join(
-        random.choice(string.ascii_letters) for _ in  range(AES.block_size))
+        random.choice(string.ascii_letters) for _ in  range(AES.block_size)) 
     
     iv = ''.join(
         random.choice(string.ascii_letters) for _ in  range(AES.block_size))
@@ -24,6 +24,7 @@ def main():
     plaintext += chr(padding_length) * padding_length
     cipher_text = cipher.encrypt(plaintext)
     print(cipher_text)
+    print(plaintext)
     
     
     
