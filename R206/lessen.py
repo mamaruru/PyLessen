@@ -24,7 +24,7 @@ def main():
     plaintext += chr(padding_length) * padding_length
     cipher_text = cipher.encrypt(plaintext)
     print(cipher_text)
-    print(plaintext)
+#     print(plaintext)
 
     
     
